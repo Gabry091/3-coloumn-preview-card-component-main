@@ -1,0 +1,181 @@
+/* start variables */
+
+/* primary colors */
+$brorange: hsl(31, 77%, 52%);
+$dcyan: hsl(184, 100%, 22%);
+$vdcyan: hsl(179, 100%, 13%);
+/* end primary colors */
+
+/* fonts */
+$fsize: 15px;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400&display=swap');
+/* ^ = Lexend Deca */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/* ^ = Big Shoulders Display */
+
+
+//* END VARIABLES */
+
+//*START CODE */
+body{
+    background-color: #f2f2f2;
+}
+
+h1, p {
+    color: #f2f2f2;
+}
+
+h1{
+    font-family: 'Big Shoulders Display';
+}
+
+
+.head{
+position: absolute;
+top: 65px;
+left: 200px;
+
+.sedans{
+    width: 230px;
+    height: 380px;
+    background-color: $brorange;
+    border-radius: 10px 0px 0px 10px;
+    padding: 40px;
+    float: left;
+      #ised{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+#titlesed{
+    font-size: 50px;
+    position: absolute;
+    top: 70px;
+}
+    
+#sedp{
+    position: absolute;
+    top: 170px;
+    left: 40px;
+    line-height: 30px;
+    font-size: 17px;
+    font-family: 'Lexend Deca';
+}
+
+#lem{
+    background-color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 370px;
+    color: $brorange;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+
+
+}
+    #lem:hover{
+        background-color: $brorange;
+        color: #f2f2f2;
+        cursor: pointer;
+    }
+}
+
+.suvs{
+    width: 280px;
+    height: 460px;
+    background-color: $dcyan;
+    float: left;
+
+    #suvsvg{
+        position: absolute;
+        top: 40px;
+        left: 340px;
+    }
+
+    #titlesuv{
+    font-size: 50px;
+    position: absolute;
+    top: 60px;
+    margin: 40px;
+    }
+
+    #suvp{
+        position: absolute;
+        margin-left: 40px;
+        line-height: 30px;
+        top: 170px;
+    }
+
+    #suvlem{
+    background-color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 370px;
+    margin-left: 40px;
+    color: $dcyan;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+
+    }
+
+    #suvlem:hover{
+        background-color: $dcyan;
+        color: #f2f2f2;
+        cursor: pointer;
+    }
+}
+
+.luxury{
+    width: 280px;
+    height: 460px;
+    background-color: $vdcyan;
+    position: absolute;
+    left: 590px;
+
+    #luxsvg{
+        position: absolute;
+        top: 40px;
+        left: 50px;
+    }
+
+    #luxtitle{
+    font-size: 50px;
+    position: absolute;
+    top: 60px;
+    margin: 40px;
+    }
+
+    #luxp{
+        position: absolute;
+        margin-left: 40px;
+        line-height: 30px;
+        top: 170px;
+    }
+
+    #luxlem{
+    background-color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 370px;
+    margin-left: 40px;
+    color: $vdcyan;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    }
+
+    #luxlem:hover{
+        background-color: $vdcyan;
+        color: #f2f2f2;
+        cursor: pointer;
+    }
+}
+}

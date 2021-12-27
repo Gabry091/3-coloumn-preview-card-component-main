@@ -1,0 +1,29 @@
+/* start variables */
+
+/* primary colors */
+$brorange: hsl(31, 77%, 52%);
+$dcyan: hsl(184, 100%, 22%);
+$vdcyan: hsl(179, 100%, 13%);
+/* end primary colors */
+
+/* fonts */
+$fsize: 15px;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400&display=swap');
+/* ^ = Lexend Deca */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/* ^ = Big Shoulders Display */
+$ld: 'Lexend Deca';
+$bsd: 'Big Shoulders Display'; 
+
+//* END VARIABLES */
+
+//*START CODE */
+
+.head{
+#suvs{
+    width: 300px;
+    height: 600px;
+    background-color: $brorange;
+}
+}
+

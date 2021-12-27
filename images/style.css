@@ -1,0 +1,14 @@
+/* start variables */
+/* primary colors */
+/* end primary colors */
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400&display=swap");
+/* ^ = Lexend Deca */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+/* ^ = Big Shoulders Display */
+.head #suvs {
+  width: 300px;
+  height: 600px;
+  background-color: #e38826;
+}
+/*# sourceMappingURL=style.css.map */
